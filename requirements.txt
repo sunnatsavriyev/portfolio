@@ -9,6 +9,7 @@ attrs==25.4.0
 certifi==2026.1.4
 charset-normalizer==3.4.4
 Django==5.2.11
+django-cors-headers==4.9.0
 djangorestframework==3.16.1
 djangorestframework_simplejwt==5.5.1
 drf-yasg==1.21.14
