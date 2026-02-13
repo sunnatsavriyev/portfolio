@@ -11,5 +11,6 @@ def notify(sender, instance, created, **kwargs):
             f"👤 {instance.firstname} {instance.lastname}\n"
             f"📧 {instance.email}\n"
             f"📝 {instance.murojaat}\n"
+            f"⏰ {instance.created_at.strftime('%d-%m-%Y %H:%M')}\n\n"
         )
         send_to_admins(msg)
