@@ -1,7 +1,7 @@
 import requests
 
 TOKEN = "8351295778:AAHObNWtDHLRm_YpX_pdv23JCoEt8BYqTXI"
-ADMIN_IDS = [1948824452]
+ADMIN_IDS = [1948824452,5079701692]
 
 def send_to_admins(text):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
