@@ -24,6 +24,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='', cast=Csv())
+CORS_ALLOWED_ORIGINS = [
+    "https://portfolio-nijy.onrender.com",
+    "https://www.rivoq.uz",
+    "https://pixelon.vercel.app",
+    "http://localhost:3000",
+]
 
 
 # Application definition
